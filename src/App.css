@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,75 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #1db954;
+  color: #fff;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.list-group-item {
+  background-color: #282828;
+  color: #fff;
+  border: none;
+  margin-bottom: 5px;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+.list-group-item:hover {
+  background-color: #1db954;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.selected-album-card {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+}
+
+.selected-album-card .card-body {
+  padding: 20px;
+}
+
+.selected-album-card .list-group-item {
+  margin-bottom: 10px;
 }
